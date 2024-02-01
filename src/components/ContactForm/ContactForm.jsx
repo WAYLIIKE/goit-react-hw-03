@@ -10,7 +10,8 @@ export const ContactForm = ({ onAdd }) => {
     name: Yup.string()
       .min(2, 'Name must be at least 2 symbols')
       .max(20, 'Max length is 20')
-      .required('Name is required'),
+      .required('Name is required')
+      .matches('^[a-zA-Z]+$', 'Only alphabet symbols'),
     number: Yup.number()
       .typeError("That doesn't look like a phone number")
       .positive("A phone number can't start with a minus")
