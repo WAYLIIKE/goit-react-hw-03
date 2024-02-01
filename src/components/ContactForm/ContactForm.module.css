@@ -1,0 +1,41 @@
+.label {
+  display: block;
+}
+
+.button {
+  display: block;
+  height: 30px;
+  width: 120px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  background-color: white;
+  cursor: pointer;
+  transition: border 150ms ease-in;
+}
+
+.button:hover {
+  border: 1px solid rgb(108, 163, 86);
+}
+
+.error {
+  display: block;
+  color: orangered;
+}
+
+.field {
+  margin-bottom: 10px;
+  height: 20px;
+  width: 200px;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.container {
+  border: 1px solid #212121;
+  border-radius: 8px;
+  margin: 0 240px;
+  padding: 30px;
+  margin-bottom: 40px;
+  width: 500px;
+}
